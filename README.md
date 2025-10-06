@@ -31,3 +31,15 @@
   • Lightweight & Extensible
 
     ° Can be extended to support group chat, file sharing, or encryption.
+
+🔗 Learning Outcomes
+
+    • Practical knowledge of Java Socket Programming (TCP/IP).
+     
+    • Hands-on experience with network programming concepts (client-server, peer-to-peer).
+     
+    • Implementation of logging mechanisms in applications.
+     
+    • Understanding of platform-independent communication in Java.
+     
+    • Foundation for building scalable chat/messaging applications.   
