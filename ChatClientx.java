@@ -25,10 +25,10 @@ class ChatClientx
     ////////////////////////////////////////////////////////////////////////
     public static void main(String Arg[]) throws Exception
     {
-        System.out.println("Marvellous Client is ready to coonect with server");
+        System.out.println(" Client is ready to coonect with server");
 
         Socket sobj = new Socket("localhost",5100);
-        System.out.println("Marvellous Client is succesfully connect with server");
+        System.out.println(" Client is succesfully connect with server");
 
 
         PrintStream pobj = new PrintStream(sobj.getOutputStream());
@@ -41,7 +41,7 @@ class ChatClientx
         BufferedWriter cobj = new BufferedWriter(fobj);
 
         System.out.println("----------------------------------------------------");
-        System.out.println("Marvellous Chat messanger is ready to use");
+        System.out.println(" Chat messanger is ready to use");
         System.out.println("----------------------------------------------------");
     
         String str1 = null, str2 = null;
@@ -71,4 +71,5 @@ class ChatClientx
         fobj.close();
         sobj.close();
     }
+
 }
