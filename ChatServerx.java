@@ -28,10 +28,10 @@ class ChatServerx
     public static void main(String Arg[]) throws Exception
     {
         ServerSocket ssobj = new ServerSocket(5100);
-        System.out.println("Marvellous server is waiting at port number 5100");
+        System.out.println("server is waiting at port number 5100");
         
         Socket sobj = ssobj.accept();
-        System.out.println("Marvellous Server suucesfully connected with the client");
+        System.out.println("Server suucesfully connected with the client");
 
         PrintStream pobj = new PrintStream(sobj.getOutputStream());
 
@@ -43,7 +43,7 @@ class ChatServerx
         BufferedWriter cobj = new BufferedWriter(fobj);
 
         System.out.println("----------------------------------------------------");
-        System.out.println("Marvellous Chat messanger is ready to use");
+        System.out.println("Chat messanger is ready to use");
         System.out.println("----------------------------------------------------");
    
         String str1 = null, str2 = null;
@@ -82,3 +82,4 @@ class ChatServerx
     }
 
 }
+
